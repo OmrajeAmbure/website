@@ -1,0 +1,19 @@
+<!doctype html>
+<html> 
+ <head></head> 
+ <body> 
+  <h1> form </h1> 
+  <input type="text" id="email" placeholder="enter email...."> 
+  <input type="button" value="submit" onclick="check ()"> 
+  <script src="form validation.js"></script> 
+ 
+<script type="text/javascript" id="dcoder_script">function check() {
+  var email = document.getElementById("email").value;
+  let reg = /@./;
+  if(reg.test(email)){
+    alert("valid email id");
+  }
+  else{
+    alert("Invalid email id");
+  }
+}</script></body></html>

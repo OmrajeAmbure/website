@@ -1,0 +1,30 @@
+<!doctype html>
+<html> 
+ <head></head>
+ <body>
+  questions in function javascript 
+  <h1>what is name of me ? </h1> <button id="btn1" onclick="right()">omraje </button> <button id="btn2" onclick="wrong()">paven raje</button> 
+  <h3 id="wrongans"></h3> 
+  <h3 id="correctness"></h3> 
+  <script type="text/javascript">
+   function right (){
+        window.alert("Your answer is correct ")
+   }
+   function wrong (){
+        window.alert("your answer is wrong");
+   }
+   let a = document.getElementById("correctness");
+   let b = document.getElementById("wrongans");
+   a.innerHTML = "very good your answer is correct 💯";
+   b.innerHTML = "please enter correct answer try again ";
+   if( right() == a){
+        document.write(a);
+   }
+   
+   
+   else {
+        document.write(b);
+   }
+ </script> 
+ 
+</body></html>
